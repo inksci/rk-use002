@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rk-use002", "rk-use002\rk-use002.vcxproj", "{027D50AD-AA3B-4094-AF88-035506027B72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{027D50AD-AA3B-4094-AF88-035506027B72}.Debug|Win32.ActiveCfg = Debug|Win32
+		{027D50AD-AA3B-4094-AF88-035506027B72}.Debug|Win32.Build.0 = Debug|Win32
+		{027D50AD-AA3B-4094-AF88-035506027B72}.Release|Win32.ActiveCfg = Release|Win32
+		{027D50AD-AA3B-4094-AF88-035506027B72}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

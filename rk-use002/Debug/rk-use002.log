@@ -1,0 +1,36 @@
+﻿生成启动时间为 07/03/2019 10:00:48。
+     1>项目“c:\Users\inksci\documents\visual studio 2010\Projects\rk-use002\rk-use002\rk-use002.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\rk-use002.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MissileTrajectorySimulation.Cpp
+         MissileTrajectorySimulation.Cpp
+     1>c:\users\inksci\documents\visual studio 2010\projects\rk-use002\rk-use002\missiletrajectorysimulation.cpp(78): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\inksci\documents\visual studio 2010\projects\rk-use002\rk-use002\missiletrajectorysimulation.cpp(98): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128) : 参见“getch”的声明
+     1>c:\users\inksci\documents\visual studio 2010\projects\rk-use002\rk-use002\missiletrajectorysimulation.cpp(123): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>c:\users\inksci\documents\visual studio 2010\projects\rk-use002\rk-use002\missiletrajectorysimulation.cpp(137): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>c:\users\inksci\documents\visual studio 2010\projects\rk-use002\rk-use002\missiletrajectorysimulation.cpp(143): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\inksci\documents\visual studio 2010\Projects\rk-use002\Debug\rk-use002.exe" /INCREMENTAL /NOLOGO opengl32.lib pcl_kdtree_release.lib pcl_io_release.lib pcl_search_release.lib pcl_segmentation_release.lib pcl_apps_release.lib pcl_features_release.lib pcl_filters_release.lib pcl_visualization_release.lib pcl_common_release.lib flann_cpp_s.lib "libboost_system-vc100-mt-1_47.lib" "libboost_filesystem-vc100-mt-1_47.lib" "libboost_thread-vc100-mt-1_47.lib" "libboost_date_time-vc100-mt-1_47.lib" "libboost_iostreams-vc100-mt-1_47.lib" vtkalglib.lib vtkCharts.lib vtkCommon.lib vtkDICOMParser.lib vtkexoIIc.lib vtkexpat.lib vtkFiltering.lib vtkfreetype.lib vtkftgl.lib vtkGenericFiltering.lib vtkGeovis.lib vtkGraphics.lib vtkhdf5.lib vtkHybrid.lib vtkImaging.lib vtkInfovis.lib vtkIO.lib vtkjpeg.lib vtklibxml2.lib vtkmetaio.lib vtkNetCDF.lib vtkNetCDF_cxx.lib vtkpng.lib vtkproj4.lib vtkRendering.lib vtksqlite.lib vtksys.lib vtktiff.lib vtkverdict.lib vtkViews.lib vtkVolumeRendering.lib vtkWidgets.lib vtkzlib.lib opencv_calib3d249d.lib opencv_contrib249d.lib opencv_core249d.lib opencv_features2d249d.lib opencv_flann249d.lib opencv_gpu249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_legacy249d.lib opencv_ml249d.lib opencv_nonfree249d.lib opencv_objdetect249d.lib opencv_ocl249d.lib opencv_photo249d.lib opencv_stitching249d.lib opencv_superres249d.lib opencv_ts249d.lib opencv_video249d.lib opencv_videostab249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\rk-use002.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\inksci\documents\visual studio 2010\Projects\rk-use002\Debug\rk-use002.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\inksci\documents\visual studio 2010\Projects\rk-use002\Debug\rk-use002.lib" /MACHINE:X86 "Debug\rk-use002.exe.embed.manifest.res"
+         Debug\MissileTrajectorySimulation.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\rk-use002.exe.embed.manifest" /manifest "Debug\rk-use002.exe.intermediate.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         rk-use002.vcxproj -> c:\users\inksci\documents\visual studio 2010\Projects\rk-use002\Debug\rk-use002.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\rk-use002.unsuccessfulbuild”。
+         正在对“Debug\rk-use002.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“c:\Users\inksci\documents\visual studio 2010\Projects\rk-use002\rk-use002\rk-use002.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.05
